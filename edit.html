@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="edit.css">
+        <title>Change_Profile_Page</title>
+    </head>
+
+    <body>
+        <div class="nav">
+            <div class="logo">
+                <p><a href="Home.php">Logo</a></p>
+            </div>
+
+            <div class="right-links">
+                <a href="Home.html">Home</a>
+                <a href="Logout.php"><button class="btn">Logout</button></a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box form-box">
+                <header class="head">Change Profile</header>
+                <form action="" method="post">
+
+                    <div class="field input">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" class="username" autocomplete="off" required>
+                    </div>
+
+                    <div class="field input">
+                        <label for="tempat_tanggal_lahir">Tempat Tanggal Lahir:</label>
+                        <input type="date" id="tempat_tanggal_lahir" class="tempat_tanggal_lahir" autocomplete="off" required>
+                    </div>
+
+                    <div class="field input">
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" class="email" autocomplete="off" required>
+                    </div>
+
+                    <div class="field input">
+                      <label for="password">Password:</label>
+                      <input type="password" id="password" class="password" autocomplete="off" required>
+                    </div>
+
+                    <div class="field">
+                        <input type="submit" class="btn" value="Update">
+                    </div>
+
+                </form> 
+            </div>
+        </div>
+    </body>
+</html>
